@@ -14,3 +14,7 @@ git log --oneline
 git commit -a -m "coucou.txt"
 git log -oneline
 git commit -a -m "coucou.txt"
+
+Sans oublier le push et on recommit le fichier coucou.txt pour avoir accès aux dernières modifications
+git commit -a -m "coucou.txt"
+git push -u origin master
