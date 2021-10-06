@@ -1,1 +1,16 @@
 coucou
+git clone https://github.com/RedStudio418/Marguerite.git Marg
+cd marg
+git status
+git remote -v
+git remote remove origin
+git remote -v
+git remote add origin https://github.com/ArcMathieu/MargeriteCopy.git
+git remote -v
+git push -u origin master
+git status
+git log --oneline
+
+git commit -a -m "coucou.txt"
+git log -oneline
+git commit -a -m "coucou.txt"
